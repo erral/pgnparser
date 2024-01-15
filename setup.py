@@ -17,9 +17,12 @@ f = open('README.rst','r')
 long_description = f.read()
 f.close()
 
+
+version = '1.1+cs.2'
+
 setup(
     name = 'pgnparser',
-    version = __version__,
+    version = version,
     author = __author__,
     license='MIT License',
     description = 'A python PGN parser',
